@@ -1,0 +1,150 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex: 1;
+    padding: 20px;
+    margin-top: 500px; /* Ajusta este valor según la altura de tu Navbar */
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #9218fc;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Asegúrate de que la navbar tenga un position: fixed */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Ajusta el margen superior del contenido principal */
+.container {
+    margin-top: 200px; /* Ajusta este valor según la altura de tu navbar */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+/* Estilos para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-top: 20px; /* Añade un margen superior a la tabla */
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Estilos para el encabezado de la tabla */
+.table th {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para las filas de la tabla */
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para las celdas de la tabla */
+.table td {
+    background-color: #fff;
+}
+
+/* Estilos para los botones de acción */
+.table button, .add-button {
+    background-color: #6A1B9A; /* Morado */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 5px; /* Añade un margen vertical y horizontal */
+}
+
+.table button i, .add-button i {
+    margin-right: 5px;
+}
+
+.table button:hover, .add-button:hover {
+    background-color: #4A148C; /* Morado más oscuro */
+}
+
+/* Estilos para el botón de agregar nuevo alumno */
+.add-button {
+    background-color: #6A1B9A; /* Morado */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0; /* Añade un margen vertical */
+}
+
+.add-button i {
+    margin-right: 5px;
+}
+
+.add-button:hover {
+    background-color: #4A148C; /* Morado más oscuro */
+}

@@ -1,0 +1,41 @@
+.container {
+    margin-top: 200px; /* Ajusta este valor según la altura de tu navbar */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.save-button {
+    background-color: #6A1B9A; /* Morado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.save-button i {
+    margin-right: 5px;
+}
+
+.save-button:hover {
+    background-color: #4A148C; /* Morado más oscuro */
+}

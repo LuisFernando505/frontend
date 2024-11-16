@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.login-title {
+    color: #4CAF50; /* Verde */
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.login-logo {
+    width: 120px;
+    margin-bottom: 2rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.login-button {
+    padding: 1rem;
+    background-color: #9C27B0; /* Morado */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #7B1FA2; /* Morado oscuro */
+}
+
+.login-error {
+    color: red;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+@media (max-width: 600px) {
+    .login-box {
+        padding: 2rem;
+    }
+
+    .login-input, .login-button {
+        font-size: 1rem;
+    }
+}
